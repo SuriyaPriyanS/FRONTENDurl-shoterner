@@ -11,6 +11,8 @@ import ForgotPassword from './Components/ForgetPassword';
 import UrlList from './Components/UrlList';
 import ShortenUrl from './Components/UrlShortener';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/url" element={<UrlList />} />
           <Route path="/short" element={<ShortenUrl />} />
           <Route path="/header" element={<Header />} />
+          <Route path="/footer" element={<Footer/>}/>
+          <Route path="/home" element={<Home />} />
           
         </Routes>
       </div>

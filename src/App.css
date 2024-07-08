@@ -252,3 +252,21 @@ form {
   font-size: 14px;
   text-align: center;
 }
+/* Example styles for Home component */
+.container {
+  max-width: 800px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-submit {
+  margin-top: 20px;
+}
+
+/* Add more styles as per your design requirements */
