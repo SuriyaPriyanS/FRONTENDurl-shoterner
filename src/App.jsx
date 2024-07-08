@@ -27,7 +27,7 @@ function App() {
           <Route path="/short" element={<ShortenUrl />} />
           <Route path="/header" element={<Header />} />
           <Route path="/footer" element={<Footer/>}/>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           
         </Routes>
       </div>
